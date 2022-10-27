@@ -1,9 +1,6 @@
 var express = require('express');
 
 var router = express.Router();
-
-
-
 /* GET Computation page. */
 
 router.get('/', function(req,res,next) {
@@ -21,8 +18,6 @@ router.get('/', function(req,res,next) {
     var logFunction = Math.log(num3);
 
     var log10Function = Math.log10(num4);
-
-
 
     res.render('computation',
 
@@ -50,8 +45,4 @@ router.get('/', function(req,res,next) {
 
 
     });
-
-
-
-
-    module.exports = router;
+     module.exports = router;
