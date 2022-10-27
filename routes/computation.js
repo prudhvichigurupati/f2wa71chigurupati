@@ -28,7 +28,7 @@ router.get('/', function(req,res,next) {
 
     {
 
-        title: 'Naveen kumar maddipati computing functions',
+        title: 'Prudhvi Chigurupati computing functions',
 
         num1: num1,
 
